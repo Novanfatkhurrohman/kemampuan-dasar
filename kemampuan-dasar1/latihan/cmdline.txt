@@ -1,0 +1,183 @@
+"Guru99"
+1. tea@novan:~$ ls
+    composer.phar  Documents  examples.desktop  Pictures  snap       Videos
+Desktop        Downloads  Music             Public    Templates
+2. tea@novan:~$ ls -al
+    total 2004
+drwxr-xr-x 21 tea  tea     4096 Okt 18 10:07 .
+drwxr-xr-x  3 root root    4096 Okt 18 01:55 ..
+-rw-------  1 tea  tea      564 Okt 18 10:20 .bash_history
+-rw-r--r--  1 tea  tea      220 Okt 18 01:55 .bash_logout
+-rw-r--r--  1 tea  tea     3771 Okt 18 01:55 .bashrc
+drwx------ 19 tea  tea     4096 Okt 18 05:34 .cache
+-rwxr-xr-x  1 root root 1932034 Okt 18 03:19 composer.phar
+drwx------ 18 tea  tea     4096 Okt 18 05:34 .config
+drwxr-xr-x  2 tea  tea     4096 Okt 18 01:59 Desktop
+drwxr-xr-x 18 tea  tea     4096 Okt 18 10:06 Documents
+drwxr-xr-x  4 tea  tea     4096 Okt 18 04:59 Downloads
+-rw-r--r--  1 tea  tea     8980 Okt 18 01:55 examples.desktop
+drwx------  3 tea  tea     4096 Okt 18 02:23 .gnome
+drwx------  3 tea  tea     4096 Okt 18 05:02 .gnupg
+-rw-------  1 tea  tea      942 Okt 18 10:02 .ICEauthority
+drwx------  3 tea  tea     4096 Okt 18 01:59 .local
+drwx------  5 tea  tea     4096 Okt 18 02:01 .mozilla
+drwxr-xr-x  2 tea  tea     4096 Okt 18 01:59 Music
+drwxr-xr-x  5 tea  tea     4096 Okt 18 10:07 .npm
+drwxr-xr-x  2 tea  tea     4096 Okt 18 01:59 Pictures
+drwx------  3 tea  tea     4096 Okt 18 02:23 .pki
+-rw-r--r--  1 tea  tea      807 Okt 18 01:55 .profile
+drwxr-xr-x  2 tea  tea     4096 Okt 18 01:59 Public
+drwxr-xr-x  4 tea  tea     4096 Okt 18 05:33 snap
+drwx------  2 tea  tea     4096 Okt 18 05:02 .ssh
+-rw-r--r--  1 tea  tea        0 Okt 18 02:05 .sudo_as_admin_successful
+drwxr-xr-x  2 tea  tea     4096 Okt 18 01:59 Templates
+drwxr-xr-x  2 tea  tea     4096 Okt 18 01:59 Videos
+drwxrwxr-x  3 tea  tea     4096 Okt 18 02:32 .vscode
+
+3. tea@novan:~$ ls -a
+    .bash_logout  composer.phar  Documents         .gnome         .local    .npm      .profile  .ssh                       Videos
+..             .bashrc       .config        Downloads         .gnupg         .mozilla  Pictures  Public    .sudo_as_admin_successful  .vscode
+.bash_history  .cache        Desktop        examples.desktop  .ICEauthority  Music     .pki      snap      Templates
+
+4.  tea@novan:~$ ls
+composer.phar  Desktop  Documents  Downloads  examples.desktop  Music  Pictures  Public  snap  Templates  tes.txt  Videos
+    tea@novan:~$ rm tes.txt 
+omposer.phar  Desktop  Documents  Downloads  examples.desktop  Music  Pictures  Public  snap  Templates  Videos
+
+5.  tea@novan:~$ ls
+composer.phar  Desktop  Documents  Downloads  examples.desktop  Music  Pictures  pindah-file  Public  snap  Templates  Videos
+    tea@novan:~$ mv pindah-file /home/tea/Videos/
+    tea@novan:~$ ls Videos/
+pindah-file
+
+"E-Guide-PDF"
+6.  tea@novan:~$ apt-get
+apt 1.8.0 (amd64)
+Usage: apt-get [options] command
+       apt-get [options] install|remove pkg1 [pkg2 ...]
+       apt-get [options] source pkg1 [pkg2 ...]
+
+apt-get is a command line interface for retrieval of packages
+and information about them from authenticated sources and
+for installation, upgrade and removal of packages together
+with their dependencies.
+
+Most used commands:
+  update - Retrieve new lists of packages
+  upgrade - Perform an upgrade
+  install - Install new packages (pkg is libc6 not libc6.deb)
+  reinstall - Reinstall packages (pkg is libc6 not libc6.deb)
+  remove - Remove packages
+  purge - Remove packages and config files
+  autoremove - Remove automatically all unused packages
+  dist-upgrade - Distribution upgrade, see apt-get(8)
+  dselect-upgrade - Follow dselect selections
+  build-dep - Configure build-dependencies for source packages
+  clean - Erase downloaded archive files
+  autoclean - Erase old downloaded archive files
+  check - Verify that there are no broken dependencies
+  source - Download source archives
+  download - Download the binary package into the current directory
+  changelog - Download and display the changelog for the given package
+
+See apt-get(8) for more information about the available commands.
+Configuration options and syntax is detailed in apt.conf(5).
+Information about how to configure sources can be found in sources.list(5).
+Package and version choices can be expressed via apt_preferences(5).
+Security details are available in apt-secure(8).
+                                        This APT has Super Cow Powers.
+7.  tea@novan:~$ date
+Jum Okt 18 11:16:56 WIB 2019
+
+8.  tea@novan:~$ echo
+(               )
+
+9.  tea@novan:~$ env
+SHELL=/bin/bash
+SESSION_MANAGER=local/novan:@/tmp/.ICE-unix/1339,unix/novan:/tmp/.ICE-unix/1339
+QT_ACCESSIBILITY=1
+COLORTERM=truecolor
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+XDG_MENU_PREFIX=gnome-
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GTK_IM_MODULE=ibus
+QT4_IM_MODULE=xim
+LC_ADDRESS=id_ID.UTF-8
+GNOME_SHELL_SESSION_MODE=ubuntu
+LC_NAME=id_ID.UTF-8
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+XMODIFIERS=@im=ibus
+DESKTOP_SESSION=ubuntu
+LC_MONETARY=id_ID.UTF-8
+SSH_AGENT_PID=1440
+GTK_MODULES=gail:atk-bridge
+XDG_SEAT=seat0
+PWD=/home/tea
+LOGNAME=tea
+XDG_SESSION_DESKTOP=ubuntu
+XDG_SESSION_TYPE=x11
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+WINDOWPATH=2
+HOME=/home/tea
+USERNAME=tea
+IM_CONFIG_PHASE=2
+LC_PAPER=id_ID.UTF-8
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+VTE_VERSION=5601
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/3d6b7d32_b3aa_434c_82a7_2d4f3fea5d65
+CLUTTER_IM_MODULE=xim
+GJS_DEBUG_OUTPUT=stderr
+LESSCLOSE=/usr/bin/lesspipe %s %s
+XDG_SESSION_CLASS=user
+TERM=xterm-256color
+LC_IDENTIFICATION=id_ID.UTF-8
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=tea
+GNOME_TERMINAL_SERVICE=:1.115
+DISPLAY=:0
+SHLVL=1
+LC_TELEPHONE=id_ID.UTF-8
+QT_IM_MODULE=xim
+LC_MEASUREMENT=id_ID.UTF-8
+XDG_VTNR=2
+XDG_SESSION_ID=2
+XDG_RUNTIME_DIR=/run/user/1000
+LC_TIME=id_ID.UTF-8
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+GDMSESSION=ubuntu
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+LC_NUMERIC=id_ID.UTF-8
+_=/usr/bin/env
+OLDPWD=/home/tea
+
+10. tea@novan:~$ ifconfig
+enp2s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether c8:5b:76:c6:57:6c  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 3416  bytes 861622 (861.6 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 3416  bytes 861622 (861.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp1s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.43.240  netmask 255.255.255.0  broadcast 192.168.43.255
+        inet6 fe80::9a19:32ff:763a:4c16  prefixlen 64  scopeid 0x20<link>
+        ether c8:3d:d4:7d:70:df  txqueuelen 1000  (Ethernet)
+        RX packets 115594  bytes 130879147 (130.8 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 89934  bytes 14258578 (14.2 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+

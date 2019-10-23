@@ -1,0 +1,6 @@
+grub>
+
+"untuk mengeceknya di ubuntu"
+$ sudo nano /etc/default/grub
+"untuk update grub"
+$ sudo update-grub
